@@ -57,7 +57,8 @@ header {
   text-transform: uppercase;
   position: fixed;
   top:0;
-  box-shadow: 8px 8px 40px #003d66;     
+  box-shadow: 8px 8px 40px #003d66;
+  z-index: 3;
 }
 
 header h1 {
@@ -73,8 +74,12 @@ header h1:hover {
   letter-spacing: 6vw;
 }
 
-section {
-  clear: both;
+section:nth-child(2) {
+  clear:both;
+  margin-left: -8px;
+  position: relative;
+  top: 80px;
+
 }
 
 section h2 {
