@@ -79,7 +79,6 @@ section:nth-child(2) {
   margin-left: -8px;
   position: relative;
   top: 80px;
-
 }
 
 section h2 {
@@ -100,8 +99,7 @@ section h2 {
 
   .grid-item:hover {
   	box-shadow: 0 0 12px #000;
-    background-color: #2d5986;
-    color: #fff;
+    background-color: #e6e6e6;
   }
 
 #grid-floats .grid-item  {
@@ -132,8 +130,10 @@ section h2 {
 .grid-item img {
   width: 100%;
   transition: 1s;
-  fill: (1);
+}
 
+.grid-item img:hover {
+  filter: grayscale(.7);
 }
 
 .grid-item:nth-child(1), #grid-flex .grid-item:nth-child(1) {
